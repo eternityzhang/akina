@@ -3,6 +3,50 @@ Akina for Typecho 主题模板
 
 ![image](https://github.com/Zisbusy/Akina-for-Typecho/blob/master/Akina-img/Akina.jpg)
 
+## 特别声明
+### 本模板是在[Akina-for-Typecho](https://github.com/Zisbusy/Akina-for-Typecho)模板的基础上进行了修改，主要修改如下
+1. 一级~六级标题样式的修改
+> - 在正常文章中六级标题的样子
+>
+> ```markdown
+> # 一级标题
+> ## 二级标题
+> ### 三级标题
+> #### 四级标题
+> ##### 五级标题
+> ###### 六级标题
+> ```
+>
+> 效果图：
+>
+> ![](https://github.com/eternityzhang/akina/blob/master/Akina-img/正常文章中标题样式.png)
+>
+> - 在有序或无序列表中六级标题的样子
+>
+> ```markdown
+> 1. # 一级标题
+> 
+> 2. ## 二级标题
+> 
+> 3. ### 三级标题
+> 
+> 4. #### 四级标题
+> 
+> 5. ##### 五级标题
+> 
+> 6. ###### 六级标题
+> ```
+>
+> 效果图：
+>
+> ![](https://github.com/eternityzhang/akina/blob/master/Akina-img/在有序或者无序下的标题样式.png)
+
+2. 公告栏修改为如果不输入内容隐藏，输入了内容则展示
+
+> 配置中，公告内容有则展示，没有则隐藏公告
+>
+> ![](https://github.com/eternityzhang/akina/blob/master/Akina-img/启用隐藏公告.png)
+
 ## 模版特点
 
 1. 同时采用`QQ`和`Gravatar`，来适应国内环境，QQ邮箱优先使用`QQ`头像，
